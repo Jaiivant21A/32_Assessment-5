@@ -1,6 +1,8 @@
 import java.util.Scanner;
-public class Main {
-    public static void main(String[] args) {
+public class Main
+{
+    public static void main(String[] args)
+    {
         Scanner input = new Scanner(System.in);
         System.out.print("Enter the student's score (0-100): ");
         double score = input.nextDouble();
